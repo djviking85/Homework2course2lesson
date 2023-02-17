@@ -12,6 +12,8 @@ public class PrintService {
                     griffendor.getNobility(),
                     griffendor.getBrawery());
             System.out.println(" ");
+            int total = griffendor.getSpellpower()+griffendor.getTransgression()+ griffendor.getHonor() + griffendor.getNobility() + griffendor.getBrawery();
+            System.out.println("Сумма скиллов на факе у "+ griffendor.getName() +" "+griffendor.getSurname()+" " + total);
         }
     }
     // Всем ученикам Слизерина присущи хитрость, решительность, амбициозность, находчивость и жажда власти

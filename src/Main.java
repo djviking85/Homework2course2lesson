@@ -34,8 +34,17 @@ public class Main {
         printService.print(slytherins);
         printService.print(hufflepuffs);
         printService.print(ravenclaws);
-    }
 
 
 
     }
+
+
+
+        }
+
+
+
+
+
+
