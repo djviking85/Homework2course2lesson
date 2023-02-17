@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class PrintService {
     public void print(Griffendor[] griffendors) {
         System.out.println("Список учащихся: " + griffendors.length);
@@ -15,6 +17,9 @@ public class PrintService {
             int total = griffendor.getSpellpower()+griffendor.getTransgression()+ griffendor.getHonor() + griffendor.getNobility() + griffendor.getBrawery();
             System.out.println("Сумма скиллов на факе у "+ griffendor.getName() +" "+griffendor.getSurname()+" " + total);
         }
+        if (griffendors[0].getHonor() > griffendors[1].getHonor()) {
+            System.out.println(griffendors[0].getSurname() + "Сильнее всех");
+        } else System.out.println(griffendors[1].getSurname()+ " Пизже");
     }
     // Всем ученикам Слизерина присущи хитрость, решительность, амбициозность, находчивость и жажда власти
     // int determination, int ambition, int cunning, int resdurcefulness, int lustPower).
