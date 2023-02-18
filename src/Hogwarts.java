@@ -53,7 +53,7 @@ public class Hogwarts {
         this.transgression = transgression;
     }
 
-    public static void studetsCompare(Hogwarts hogwarts1, Hogwarts hogwarts2) {
+    public static void studentsCompare(Hogwarts hogwarts1, Hogwarts hogwarts2) {
         if (hogwarts1.getQualityHogwarts() > hogwarts2.getQualityHogwarts()) {
             System.out.println( hogwarts1.getSurname() + " Лучший студент на факультетах");
         } else if (hogwarts2.getQualityHogwarts() > hogwarts1.getQualityHogwarts()) {
