@@ -35,6 +35,8 @@ public class Main {
         printService.print(hufflepuffs);
         printService.print(ravenclaws);
 
+        Hogwarts.studetsCompare(griffendors[1],slytherins[2]);
+
 
 
     }
