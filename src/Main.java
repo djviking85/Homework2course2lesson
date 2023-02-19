@@ -38,9 +38,9 @@ public class Main {
         Hogwarts.studentsCompare(griffendors[1],slytherins[2]);
         // сравниваем 2х учеников в отдельных факах
         Griffendor.grifCompare(griffendors[1], griffendors[0]);
-     //   Slytherin.slythCompare(slytherins[0], slytherins[1]);
-    //   Hufflepuff.huffCompare(hufflepuffs[1], hufflepuffs[2]);
-      //  Ravenclaw.ravenCompare(ravenclaws[2], ravenclaws[0]);
+        Slytherin.slythCompare(slytherins[0], slytherins[1]);
+        Hufflepuff.huffCompare(hufflepuffs[1], hufflepuffs[2]);
+        Ravenclaw.ravenCompare(ravenclaws[2], ravenclaws[0]);
 
 
 

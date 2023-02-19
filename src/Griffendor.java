@@ -2,12 +2,13 @@ public class Griffendor extends Hogwarts {
     private int nobility;
     private int brawery;
     private int honor;
+    private int qualityGriffendor;
 
     public int getQualityGriffendor() {
         return qualityGriffendor;
     }
 
-    private int qualityGriffendor;
+
 
     public int getHonor() {
         return honor;

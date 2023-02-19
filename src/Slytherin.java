@@ -5,6 +5,8 @@ public class Slytherin extends Hogwarts {
     private int resdurcefulness;
     private int lustPower;
 
+    private int qualitySlytherin;
+
     public Slytherin(String name, String surname, int spellpower, int transgression, int determination, int ambition, int cunning, int resdurcefulness, int lustPower) {
         super(name, surname, spellpower, transgression);
         this.determination = determination;
@@ -12,6 +14,10 @@ public class Slytherin extends Hogwarts {
         this.cunning = cunning;
         this.resdurcefulness = resdurcefulness;
         this.lustPower = lustPower;
+        this.qualitySlytherin = lustPower + resdurcefulness + cunning + ambition;
+    }
+    public int getQualitySlytherin() {
+        return qualitySlytherin;
     }
 
     public int getDetermination() {
@@ -52,6 +58,15 @@ public class Slytherin extends Hogwarts {
 
     public void setLustPower(int lustPower) {
         this.lustPower = lustPower;
+    }
+    public static void slythCompare(Slytherin slytherin1, Slytherin slytherin2) {
+        if (slytherin1.getQualitySlytherin() > slytherin2.getQualitySlytherin()) {
+            System.out.println( slytherin1.getSurname() + " Лучший студент на факультете Гриффендор");
+        } else if (slytherin2.getQualitySlytherin() > slytherin1.getQualitySlytherin()) {
+            System.out.println(slytherin1.getSurname() + " ЛУчший студент на факультете Гриффендор");
+        } else {
+            System.out.println(slytherin2.getSurname() + " и " + slytherin1.getSurname() + " равны!");
+        }
     }
 
 
